@@ -1,0 +1,18 @@
+import java.util.*;;
+
+public class Largesttwonumber {
+    public static void main(String[] args) {
+        int num1, num2,  largest;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter first number ");
+        num1 = sc.nextInt();
+        System.out.println("enter second number");
+        num2 = sc.nextInt();
+        if (num1 > num2) {
+            largest = num1;
+        } else {
+            largest = num2;
+        }
+        System.out.println("largest among two number " + largest);
+    }
+}
